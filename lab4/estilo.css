@@ -1,0 +1,155 @@
+* {
+    font-family: roboto;
+    
+}
+
+html {
+    background-image: url(images/background.jpg) ;
+    height: 100%;
+}
+
+body {
+    font: 100% Calibri;
+	width: 900px;
+    min-height: 100%;
+	margin-left: 300px;
+	padding: 0 40px;
+	text-align:left;
+	position: relative;
+	background: #315D8E;
+	box-shadow: black 0 2px 5px 0;
+    color: white;
+}
+
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 50px;
+    
+}
+
+main h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+
+main hr {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+main p, hr, ul {
+    margin-top:15px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+#poema{
+    font-size: 20px;
+}
+
+footer {
+
+ background-color: rgb(44, 43, 43);
+ color: white;
+ display: inline-block;
+ bottom: 0;
+ height: 2rem;
+ width:109%;
+ margin-left: -40px;
+ }
+
+footer p {
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 109%;
+    margin-left: -40px;
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    text-align:center;
+  }
+  
+nav li {
+    display:inline;
+}
+  
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display:inline-block;
+}
+  
+nav li a:hover {
+    background: #315D8E;
+}
+
+nav li a:link {
+    background: #051c36;
+}
+
+nav li a:active {
+    background: #0400ff;
+}
+
+nav li a:visited {
+    color: rgb(130, 121, 230);
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  table caption {
+      padding: 20px;
+  }
+
+  #baixo {
+      margin-top: 152px;
+  }
+
+  legend, fieldset {
+      margin-bottom: 30px;
+  }
+  
+  #left {
+    text-align:left;
+  }
+
+
+  

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Manuel Sousa">
+  <meta name="keywords" content="Lisboa">
+  <meta name="description" content="Website sobre Lisboa">
+  <link rel="shortcut icon" type="image/x-icon" href="images/luffy.ico" />
+  <link href="reset.css" type="text/css" rel="stylesheet">
+  <link href="estilo.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+		<h1> Lisboa </h1>
+		<img src="images/lisboa.jpg" class="center">
+		<br>
+	</header>
+	<nav>
+		<ul>
+			<div>
+        <li><a href="../index.html"> Home </a></li>
+        </div>
+        <li><a href="index.html"> <b> Introdução </b> </a></li>
+        <li ><a href="local.html"> Localização </a></li>
+        <li><a href="multimedia.html"> Multimédia </a></li>
+        <li><a href="info.html"> Informação </a></li>
+        </div>
+        <div>
+        <li><a href="quizz.html"> Quizz </a></li>
+        <li><a href="comentarios.html"> Comentários </a></li>
+        <li><a href="html5-css.html"> CSS </a></li>
+        </div>
+		</ul>
+	</nav>
+</header>
+  <main>
+  <h3>Quizz</h3>
+
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Dados Pessoais:</legend>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome"><br><br>
+      <label for="apelido">Apelido:</label>
+      <input type="text" id="apelido" name="apelido"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+  <br>
+
+  <form action="mailto:manuelaugust2013@hotmail.com" method="POST">
+    <fieldset>
+      <legend>Quizz:</legend>
+      <label for="pergunta1">Como se chamava a cidade Antigamente?:</label>
+      <input type="text" id="pergunta1" name="fname" required value="Por..." autocomplete="on" size=15 maxlength="10"
+        autofocus><br><br>
+
+      <label for="pergunta2">Quantos municípios tem lisboa?:</label>
+      <input type="radio" id="num1" name="pergunta2" value="num1">
+      <label for="num1">15</label>
+      <input type="radio" id="num2" name="pergunta2" value="num2">
+      <label for="num2">16</label>
+      <input type="radio" id="num3" name="pergunta2" value="num3">
+      <label for="num3">14</label><br><br>
+
+      <label for="pergunta3">Quais destes conselhos pertencem a Lisboa?:</label>
+      <input type="checkbox" id="num4" name="num4">
+      <label for="num4">Cascais</label>
+      <input type="checkbox" id="num5" name="num5">
+      <label for="num5">Abrantes</label>
+      <input type="checkbox" id="num6" name="num6">
+      <label for="num6">Odivelas</label><br><br>
+
+      <label for="pergunta4">Quando ocorreu o Terramoto em Lisboa?:</label>
+      <input type="date" id="pergunta4" name="email"><br><br>
+
+      <label for="pergunta6">Que cor acha que representa Lisboa?:</label>
+      <input type="color" id="pergunta6" name="email"><br><br>
+
+      <label for="pergunta7">Quantas pessoas tem Lisboa?:</label>
+      <input type="number" id="pergunta7" name="email" placeholder="nº pessoas" step="10000"><br><br>
+
+      <label for="pergunta8">Nesta barra, o quanto gosta de Lisboa?:</label>
+      <input type="range" name="pergunta8" value="">
+
+      <br><br>
+
+      <input type="image" src="images/sumbit.png" alt="Submit" width="100" height="100"><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+  <section>
+    <h3>Menu SVG:</h3>
+    <svg class="center">
+
+      <a href="../index.html">
+        <text x="40" y="15" fill="red">Home
+          <animateMotion path="M 4 0 L 100 89" begin="1s" dur="2s" fill="freeze"></animateMotion>
+        </text>
+      </a>
+
+      <a href="index.html">
+        <text x="40" y="95" fill="blue">Introdução
+          <animateMotion path="M 4 0 L 50 30" begin="1s" dur="2s" fill="freeze"></animateMotion>
+        </text>
+      </a>
+
+      <a href="local.html">
+        <text x="80" y="55" fill="green">Localização</text>
+        <animateMotion path="M 4 0 L -20 20" begin="1s" dur="2s" fill="freeze"></animateMotion>
+      </a>
+
+      <a href="multimedia.html">
+        <text x="40" y="135" fill="yellow">Multimédia</text>
+        <animateMotion path="M 4 0 L 50 -89" begin="1s" dur="2s" fill="freeze"></animateMotion>
+      </a>
+
+      <a href="info.html">
+        <text x="160" y="135" fill="pink">Informação</text>
+        <animateMotion path="M 4 0 L -100 -120" begin="1s" dur="2s" fill="freeze"></animateMotion>
+      </a>
+
+      <a href="quizz.html">
+        <text x="200" y="75" fill="orange">Quizz</text>
+        <animateMotion path="M 4 0 L 0 50" begin="1s" dur="2s" fill="freeze"></animateMotion>
+      </a>
+
+      <a href="comentarios.html">
+        <text x="120" y="15" fill="purple">Comentários</text>
+        <animateMotion path="M 4 0 L 50 50" begin="1s" dur="2s" fill="freeze"></animateMotion>
+      </a>
+
+    </svg>
+  </section>
+  <aside><img src="images/asideFoto.jpg" class="center"></aside>
+		<br>
+		<aside>Lisboa durante a tarde</aside>
+		<br>
+</main>
+<footer> <p>Manuel Sousa - a21907715 - Universidade Lusófona - 2º ano</p> </footer>
+</body>
+
+</html>

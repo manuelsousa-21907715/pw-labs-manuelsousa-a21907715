@@ -1,0 +1,260 @@
+* {
+    font-family: roboto;
+    
+}
+
+html {
+    background-image: url(images/background.jpg) ;
+    height: 100%;
+}
+
+body {
+    font: 100% Calibri;
+	width: 900px;
+    min-height: 100%;
+	margin-left: 300px;
+	padding: 0 40px;
+	text-align:left;
+	position: relative;
+	background: #315D8E;
+	box-shadow: black 0 2px 5px 0;
+    color: white;
+}
+
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 50px;
+    
+}
+
+main h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+
+main hr {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+main p, hr, ul {
+    margin-top:15px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+#poema{
+    font-size: 20px;
+}
+
+footer {
+
+ background-color: rgb(44, 43, 43);
+ color: white;
+ display: inline-block;
+ bottom: 0;
+ height: 3rem;
+ width:109%;
+ margin-left: -40px;
+ }
+
+footer p {
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+/* Navegação */
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 109%;
+    margin-left: -40px;
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    text-align:center;
+  }
+  
+nav li {
+    display:inline;
+}
+  
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display:inline-block;
+}
+  
+nav li a:hover {
+    background: #315D8E;
+}
+
+nav li a:link {
+    background: #051c36;
+}
+
+nav li a:active {
+    background: #0400ff;
+}
+
+nav li a:visited {
+    color: rgb(130, 121, 230);
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  table caption {
+      padding: 20px;
+  }
+
+  #baixo {
+      margin-top: 152px;
+  }
+
+  legend, fieldset {
+      margin-bottom: 30px;
+  }
+  
+  #left {
+    text-align:left;
+  }
+
+ .pastel {
+     width: 200px;
+     height: 200px;
+ }
+  aside {
+      text-align: center;
+  }
+
+  .container {
+    display: inline-grid;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > li {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .gray {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+
+  /* image animation */
+
+  .wave {
+  float: left;
+  margin: 20px;
+  animation: wave  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -20px;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+}
+
+.wave img {
+  border: 5px solid #f8f8f8;
+  display: block;
+  width: 200px;
+  height: 250px;
+}
+
+.wave figcaption {
+  text-align: center;
+}
+
+.wave:after{
+  content: '';
+  position: absolute;
+  width: 20px; 
+  height: 20px;
+  border: 1.5px solid #ffffff;
+  top: -10px; 
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+       
+.wave:before{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  display: block;
+  height: 44px;
+  width: 47px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+        
+@keyframes wave {
+  0% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
